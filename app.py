@@ -17,6 +17,8 @@ def get_dataset():
     df['embedding'] = df['embedding'].apply(json.loads)
     return df
 
+# ------------------------------ # 
+
 model = cached_model()
 df = get_dataset()
 
