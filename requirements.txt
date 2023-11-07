@@ -2,3 +2,4 @@ streamlit
 streamlit_chat
 streamlit-chat
 sentence-transformers
+sentence_transformers
