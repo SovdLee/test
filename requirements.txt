@@ -4,3 +4,4 @@ streamlit-chat
 sentence-transformers
 sentence_transformers
 openpyxl
+streamlit.components.v1
