@@ -13,7 +13,7 @@ def cached_model():
 
 @st.cache(allow_output_mutation=True)
 def get_dataset():
-    df = pd.read_csv('data/wellness_dataset.csv') # AI Hub에서 제공하는 웰니스 데이터셋 사용
+    df = pd.read_excel('data/wellness_dataset.xlsx') # AI Hub에서 제공하는 웰니스 데이터셋 사용
     df['embedding'] = df['embedding'].apply(json.loads)
     return df
 
